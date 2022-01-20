@@ -4,13 +4,13 @@ This is Alice Bibaud's personal website, made with Benji Prashker's Personal Web
 ## Pages
 - also available as moving panels; perhaps pages are just hops from one down to another
 
-# Home
+### Home
 - Cool moving panel style
 - Some writings and blurbs about professional life, hobbies, and interests
 - Lots of Links
 - Github, Linkedin, Contact, and Music linked at the bottom
 
-# Resume
+### Resume
 - PDF of the document at the top
 - All bullets from all resumes
 - All skills from all resumes
