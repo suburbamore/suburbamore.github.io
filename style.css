@@ -6,7 +6,7 @@ html{
 /*	Background settings and color	*/
 body {
 	margin:0;
-	background-color: #110d08;
+	background-color: #121212;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -14,8 +14,8 @@ body {
 /*	Name display on top of page	*/
 h1{
 	background-size: cover;
-	color: wheat;
-	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-family: 'monospace', monospace;
 	text-align: center;
 	box-sizing: border-box;
 	margin-top: 4%;
@@ -27,6 +27,7 @@ h1{
 /*	Links at the bottom of the page	*/
 ul {
 	position:absolute;
+	color: white;
 	bottom:0;
 	text-align: center;
 	list-style-type: none;
@@ -39,11 +40,12 @@ ul {
 .fa {
 	position: relative;
 	padding: 1%;
+	font-family: 'monospace', monospace;
 	font-size: 30px;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
-	color: wheat;
+	color: white;
 	margin-left: auto;
 	margin-right: auto;
   } 
@@ -97,9 +99,9 @@ ul {
 
 /* Animation code for the main paragraph */
 .typewrite1 {
-	color: wheat;
+	color: white;
 	overflow: hidden;
-	border-right: .15em solid wheat;
+	border-right: .15em solid white;
 	white-space: nowrap;
 	margin: 0 auto;
 	letter-spacing: .10em;
@@ -115,5 +117,5 @@ ul {
 
 @keyframes blink-caret {
 	from, to { border-color: transparent }
-	100% { border-color: wheat;}
+	100% { border-color: white;}
 }
