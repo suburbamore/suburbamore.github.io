@@ -1,10 +1,22 @@
 ## About
-This repo can be used as a starter template for anyone looking to create a personal website or looking to learn css/html/js/... 
+This is Alice Bibaud's personal website, made with Benji Prashker's Personal Website Template (forked from prashb99/PersonalWebsiteTemplate)
 
-How to set up your personal website hosted by GitHub
+## Pages
+- also available as moving panels; perhaps pages are just hops from one down to another
 
-1. Create GitHub account
-2. Fork ResumeWebsite
-3. Go to GitHub settings on your ResumeWebsite repository 
-4. Change the source branch to the branch with your website on it and save
-5. You should be all set
+### Home
+- Cool moving panel style
+- Some writings and blurbs about professional life, hobbies, and interests
+- Lots of Links
+- Github, Linkedin, Contact, and Music linked at the bottom
+
+### Resume
+- PDF of the document at the top
+- All bullets from all resumes
+- All skills from all resumes
+- Also scrolling panels with images in the back for each bullet
+
+## Stack
+- CSS
+- HTML
+
