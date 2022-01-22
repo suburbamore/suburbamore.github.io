@@ -6,7 +6,8 @@
 */
 img {
 	margin-left: 5%;
-	float: left; width: 21%; height: 14%;
+	margin-top:  5%;
+	float: left; /*width: 21%; height: 14%*/;
 }
 
 /*
@@ -14,11 +15,11 @@ img {
     more positioning and display settings
 */
 .photo {
-	position: absolute;
-	top: 15%;
-	left: 20%;
+	/*position: absolute;
+	top: 0%;
+	left: 0%;
 	transform: translate(-50%, 50%);
-	display: block;
+	/*display: block;*/
 }
 
 /*
@@ -29,15 +30,8 @@ img {
 	width: 200px;
 	height: 280px;
 	object-fit: cover;
-	box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
-	display: block;
-	margin-top: -10px;
+	/*box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);*/
+	/*display: block;*/
+	/*margin-top: -10px;*/
 }
-
 /*
-    Moves image shadow when hovered over
-
-.photo:hover img {
-	box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
-}
-*/
