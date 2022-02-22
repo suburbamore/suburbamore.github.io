@@ -54,14 +54,16 @@ footer {
 	animation: fadeInAnimation ease 3s;
 }
 
-.termianl_text {
+.terminal_text {
 	height: fit-conten;
+	justify-content: left;
 	padding: 2vw;
   	padding-top: 2vw;
   	padding-bottom: 2vw;
 	padding-top: 0.5vw;
 	padding-bottom: 0.5vw;
 	position: relative;
+	text-decoration-color: #4af626;
 	display: flex;
 	opacity: 1;
 	animation: fadeInAnimation ease 3s;
