@@ -4,31 +4,6 @@ html {
 	color: white;
 }
 
-nav {
-	position: sticky;
-	top: 0;
-}
-
-footer {
-	position: absolute;
-	bottom: 2vh;
-  	left: 50%;
-  	-ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
-}
-
-.body_div {
-	float: left;
-	padding-top: 5vh;
-  padding-right: 10vw;
-  padding-bottom: 5vh;
-  padding-left: 10vw;
-	  text-align: center;
-	  color: white;
-	  text-decoration: none;
-	  font-size: 17px;
-}
-
 .flex {
 	float: bottom;
 	color: white;
