@@ -2,31 +2,70 @@ html {
 	background-color: #121212;
 	font-family: 'Courier New', monospace;
 	color: white;
+  height: 100%;
 }
 
 nav {
-	position: sticky;
+	margin: 0vh, 0vw, 0vh, 0vw;
+  position: sticky;
 	top: 0;
 }
 
-footer {
-	position: absolute;
-	bottom: 2vh;
-  	left: 50%;
-  	-ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 
-.body_div {
+footer {
+  margin: 0vh, 0vw, 0vh, 0vw;
+	position: absolute;
+	bottom: 5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+footer a {
+  padding-right: 5vh;
+  padding-left: 5vh;
+}
+
+/*.body_div {
 	float: left;
 	padding-top: 5vh;
   padding-right: 10vw;
   padding-bottom: 5vh;
   padding-left: 10vw;
-	  text-align: center;
-	  color: white;
-	  text-decoration: none;
-	  font-size: 17px;
+	text-align: center;
+  color: white;
+	text-decoration: none;
+	font-size: 17px;
+}*/
+
+.cover_panel {
+  width: 80vw;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  padding-top: 5vh;
+  padding-right: 10vw;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+  text-align: left;
+}
+
+.panel {
+  width: 80vw;
+  min-height: 70vh;
+  background-color: white;
+  color: black;
+  padding-top: 5vh;
+  padding-right: 10vw;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+  text-align: left;
 }
 
 .flex {
@@ -41,15 +80,16 @@ footer {
 
 .flex a:hover {
 	transition-duration: 1s;
-  	background-color: #232323;
+  background-color: #232323;
 }
 
-.parallax {
+.parallax_1 {
   /* The image used */
-  background-image: url("img_parallax.jpg");
+  background-image: url("images/DSC_1787.jpg");
 
   /* Set a specific height */
-  min-height: 50vh;
+  min-width: 100vh;
+  min-height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -58,17 +98,32 @@ footer {
   background-size: cover;
 }
 
-.navbar {
+.parallax_2 {
+  /* The image used */
+  background-image: url("images/0.jpeg");
+
+  /* Set a specific height */
+  min-width: 100vh;
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.navbar {
   width: 100%;
   overflow: auto;
 }
 
 .navbar a {
   float: left;
-  padding-top: 5vh;
-  padding-right: 10vw;
-  padding-bottom: 5vh;
-  padding-left: 10vw;
+  padding-top: 0vh;
+  padding-right: 0vw;
+  padding-bottom: 0vh;
+  padding-left: 0vw;
   color: white;
   text-decoration: none;
   font-size: 17px;
@@ -85,3 +140,4 @@ footer {
     display: block;
   }
 }
+*/
