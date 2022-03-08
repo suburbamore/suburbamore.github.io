@@ -1,55 +1,109 @@
 html {
 	background-color: #121212;
 	font-family: 'Courier New', monospace;
-	color: white;
+  height: 100%;
+  font-size: larger;
 }
 
 nav {
-	position: sticky;
+	margin: 0vh, 0vw, 0vh, 0vw;
 	top: 0;
 }
 
-footer {
-	position: absolute;
-	bottom: 2vh;
-  	left: 50%;
-  	-ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 
-.body_div {
-	float: left;
-	padding-top: 5vh;
+footer {
+  margin: 0vh, 0vw, 0vh, 0vw;
+	position: absolute;
+  color: black;
+  bottom: 5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+footer a {
+  padding-right: 5vh;
+  color: black;
+  padding-left: 5vh;
+}
+
+.cover_panel {
+  background-image: url("images/Alice_Graph copy 3.jpeg");
+  width: 100vw;
+  min-height: 60vh;
+  height: 100vh;
+  color: black;
+}
+
+.panel {
+  min-width: 80vw;
+  min-height: 90vh;
+  height: 100vh;
+  background: white;
+  color:  black;
+  padding-top: 5vh;
   padding-right: 10vw;
   padding-bottom: 5vh;
   padding-left: 10vw;
-	  text-align: center;
-	  color: white;
-	  text-decoration: none;
-	  font-size: 17px;
+  text-align: left;
 }
 
 .flex {
 	float: bottom;
-	color: white;
+	color: black;
 }
 
 .flex a {
 	float: bottom;
-	color: white;
+	color: black;
 }
 
 .flex a:hover {
 	transition-duration: 1s;
-  	background-color: #232323;
+  background-color: #232323;
 }
 
-.parallax {
+.parallax_1 {
   /* The image used */
-  background-image: url("img_parallax.jpg");
+  background-image: url("images/DSC_1787.jpg");
 
   /* Set a specific height */
-  min-height: 50vh;
+  width: 50vw;
+  min-height: 80vh;
+  height: 70vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* text */
+  color: white;
+  padding-top: 30vh;
+  padding-right: 25vw;
+  padding-bottom: 0vh;
+  padding-left: 25vw;
+}
+
+.parallax_1 hd {
+  font-weight: bolder;
+}
+
+.parallax_2 {
+  /* The image used */
+  background-image: url("images/0.jpeg");
+
+  /* Set a specific height */
+  min-width: 80vw;
+  min-height: 100vh;
+  height: 100vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -58,17 +112,64 @@ footer {
   background-size: cover;
 }
 
-.navbar {
+
+.parallax_3 {
+  background-color: darkred;
+  height: 300vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.half_panel {
+  background: white;
+  color: black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
+  height: 80vh;
+  width: 0vw;
+  padding-top: 10vh;
+  padding-right: 25vw;
+  padding-bottom: 10vh;
+  padding-left: 25vw;
+}
+
+.half_panel hd {
+  font-weight: bolder;
+  font-size: large;
+  padding-top: 10vh;
+  padding-right: 25vw;
+  padding-left: 25vw;
+}
+
+.main-nav {
+  color: black;
+  background-color: white;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.main-nav a {
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 20vh;
+}
+
+/*.navbar {
   width: 100%;
   overflow: auto;
 }
 
 .navbar a {
   float: left;
-  padding-top: 5vh;
-  padding-right: 10vw;
-  padding-bottom: 5vh;
-  padding-left: 10vw;
+  padding-top: 0vh;
+  padding-right: 0vw;
+  padding-bottom: 0vh;
+  padding-left: 0vw;
   color: white;
   text-decoration: none;
   font-size: 17px;
@@ -85,3 +186,4 @@ footer {
     display: block;
   }
 }
+*/
