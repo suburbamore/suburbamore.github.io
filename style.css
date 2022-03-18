@@ -2,6 +2,7 @@ html {
   font-family: 'Helvetics', sans-serif;
   height: 100%;
   font-size: x-large;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -17,13 +18,6 @@ nav a {
   margin-right: 10vw;
   margin-left: 10vw;
   margin-top: 20vh;
-}
-
-@media screen and (max-width: 500px) {
-  nav a {
-    float: none;
-    display: block;
-  }
 }
 
 body {
@@ -131,10 +125,6 @@ footer a: hover {
   padding-left: 25vw;
 }
 
-.parallax hd {
-  font-weight: bolder;
-}
-
 .parallax london {
   all: inherit;
   height: 5vh;
@@ -173,3 +163,51 @@ For later, when I figure out how to use onscroll
 }
 
 */
+
+@media (max-aspect-ratio: 3/3) {
+  nav a {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 0vh;
+  }
+    footer a {
+    margin-right: 0vw;
+    margin-left: 0vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    color: black;
+    float: bottom;
+  }
+  .panel cover {
+    font-size: smaller;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    padding-top: 0vh;
+    min-height: 0vh;
+    padding-bottom: 4vh;
+    background-image: url(images/graphinthemiddle.jpg);
+    background-size: 80vh;
+  }
+  .panel journal {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .parallax about {
+    min-height: 80vh;
+    font-size: smaller;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .parallax london {
+    height: 10vh;
+    font-size: 80px;
+  }
+}
