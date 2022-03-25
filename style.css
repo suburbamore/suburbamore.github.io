@@ -9,15 +9,21 @@ nav {
 	margin: 0vh, 0vw, 0vh, 0vw;
 	top: 0;
   color: black;
-  background-color: white;
   text-align: center;
   padding-top: 10vh;
+  overflow: hidden;
 }
 
 nav a {
   margin-right: 10vw;
   margin-left: 10vw;
   margin-top: 20vh;
+  color: black;
+  text-decoration: none;
+}
+
+nav a: hover {
+  color: lightblue;
 }
 
 body {
@@ -164,7 +170,7 @@ For later, when I figure out how to use onscroll
 
 */
 
-@media (max-aspect-ratio: 3/3) {
+@media (background-image width: 100vw) {
   nav a {
     margin-right: 0vw;
     margin-left: 0vw;
