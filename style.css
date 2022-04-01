@@ -95,6 +95,42 @@ footer a: hover {
   text-shadow: 0 0 10px 5px white;
 }
 
+.panel resume {
+  all: inherit;
+
+  /* text */
+  background-repeat: repeat;
+  padding-top: 10vh;
+  padding-right: 10vw;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* title */
+.panel resume t {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* header */
+.panel resume h {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* caption */
+.panel resume c {
+  font-weight: bold;
+}
+
+/* link */
+.panel resume a {
+  color: inherit;
+}
+
 .panel photo {
   width: 100vw;
   min-height: 60vh;
@@ -145,30 +181,6 @@ footer a: hover {
   font-size: 160px;
   text-shadow: 0 0 2px navy;
 }
-
-/*
-
-For later, when I figure out how to use onscroll
-
-.half_panel {
-  background: white;
-  color: black;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  height: 80vh;
-  width: 0vw;
-  padding-top: 10vh;
-  padding-right: 25vw;
-  padding-bottom: 10vh;
-  padding-left: 25vw;
-}
-
-.half_panel hd {
-  font-weight: bolder;
-}
-
-*/
 
 @media (background-image width: 100vw) {
   nav a {
