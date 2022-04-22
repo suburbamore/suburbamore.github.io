@@ -213,41 +213,17 @@ body {
   color: inherit;
 }
 
-/* Style inputs with type="text", select elements and textareas
-input[type=text], select, textarea {
-  font-family: 'Helvetica', sans-serif;
-  font-size: large;
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
-}
-*/
+.row > .column {  }
 
-/* Style the submit button with a specific background color etc
-input[type=submit] {
-  font-family: 'Helvetica', sans-serif;
-  font-size: large;
-  background-color: #04AA6D;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-*/
 
-/* When moving the mouse over the submit button, add a darker green color
-input[type=submit]:hover {
-  font-size: large;
-  font-family: 'Helvetica', sans-serif;
-  background-color: #45a049;
+.parallax album {
+  
 }
-*/
 
 /* Add a background color and some padding around the form */
 .container {
