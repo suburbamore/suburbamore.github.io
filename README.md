@@ -1,5 +1,6 @@
 ## About
 This is Alice Bibaud's personal website, made with Benji Prashker's Personal Website Template (forked from prashb99/PersonalWebsiteTemplate)
+Hosted at https://alicebibaud.github.io/
 
 ## Pages
 - Just moving panels; perhaps pages are just hops from one down to another via scroll or nav bar
