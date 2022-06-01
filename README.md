@@ -1,34 +1,15 @@
 ## About
 This is Alice Bibaud's personal website, made with Benji Prashker's Personal Website Template (forked from prashb99/PersonalWebsiteTemplate)
-Hosted at https://alicebibaud.github.io/
+Hosted at https://alicebibaud.github.io/.
 
-## Pages
-- Just moving panels; perhaps pages are just hops from one down to another via scroll or nav bar
+This website includes:
 
-### Cover
-- Funky Illustration
-- Minimal information; barely my name
-- Cool CSS animation
-- Easter egg ;)
-- Github + Linkedin Linked
-
-### About
-- Parallax
-- Cool moving panel style
-- Short bio
-
-### Resume
-- PDF of the document at the top
-- All bullets from all resumes
-- All skills from all resumes
-- Also scrolling panels with images in the back for each bullet
-
-### Travel
-- Where you went
-- Journal entries / pictures!
+- An About Page, with some info about me
+- An interactive Resume Page
+- A bit about my personal life on the Travel Page
+- And a way to contact me at the bottom of the main page, in addition to links to my linkedin account and this github account!
 
 ## Stack
 - CSS
 - HTML
 - Javascript
-
