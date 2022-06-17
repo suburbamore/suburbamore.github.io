@@ -98,6 +98,9 @@ body {
 
   /* text */
   color: black;
+
+  /* collapsible effect */
+  overflow: hidden;
 }
 
 .panel cover {
