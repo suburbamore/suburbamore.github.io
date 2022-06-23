@@ -55,22 +55,17 @@ body {
 
 .banner {
   min-width: 50vw;
-  height: 50vh;
+  min-height:  30vh;
   background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: white;
-}
-
-.banner bigTitle {
-  all: inherit;
 
   /* text */
+  color: white;
   text-align: center;
   padding-top: 15vh;
-  padding-bottom: 5vh;
   font-weight: bolder;
   font-size: 160px;
   width: 100vw;
@@ -85,7 +80,6 @@ body {
 .panel {
   /* the panel itself */
   min-width: 50vw;
-  min-height: 30vh;
   background-color: white;
 
   /* Create the parallax scrolling effect + scaling */
@@ -97,13 +91,14 @@ body {
   /* text */
   font-family: 'Helvetica', sans-serif;
   color: black;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
   line-height: 1.6;
 }
 
 .panel journal {
   all: inherit;
+  min-height: 0vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 
   /* text */
   font-family: 'Courier New', monospace;
@@ -119,6 +114,8 @@ body {
 
   /* text */
   background-repeat: repeat;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   padding-right: 10vw;
   padding-left: 10vw;
   font-size: 15px;
@@ -164,8 +161,8 @@ body {
 .panel photo {
   width: 100vw;
   min-height: 60vh;
+  display: block;
 }
-
 
 
 .row:after {
