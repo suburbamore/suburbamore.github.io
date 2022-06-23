@@ -37,9 +37,7 @@ body {
   margin: 0vh, 0vw, 0vh, 0vw;
 	position: absolute;
   color: black;
-  /*bottom: 5%;*/
   left: 50%;
-  /*-ms-transform: translate(-50%, -50%);*/
   transform: translate(-50%, -50%);
 }
 
@@ -55,39 +53,39 @@ body {
   background-color: #232323;
 }
 
-.contact {
-  font-family: 'Helvetica', sans-serif;
-  font-size: x-large;
+.banner {
+  min-width: 50vw;
+  height: 50vh;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
-  height: 20vh;
+}
+
+.banner bigTitle {
+  all: inherit;
+
+  /* text */
+  text-align: center;
   padding-top: 15vh;
+  padding-bottom: 5vh;
+  font-weight: bolder;
+  font-size: 160px;
+  width: 100vw;
 }
 
-.contact button {
+/* links in banners */
+.banner bigTitle a {
+  all: inherit;
   color: inherit;
-  font: inherit;
-  background-color: #04AA6D;
-  border: none;
-  border-radius: 4px;
-  position: relative;
-  padding-top: 8px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  padding-right: 12px;
-  bottom: 0%;
-  left: 45%;
-}
-
-.contact button a {
-  color: inherit;
-  font: inherit;
-  font-style: none;
-  text-decoration: none;
 }
 
 .panel {
   /* the panel itself */
   min-width: 50vw;
+  min-height: 30vh;
   background-color: white;
 
   /* Create the parallax scrolling effect + scaling */
@@ -97,22 +95,11 @@ body {
   background-size: cover;
 
   /* text */
+  font-family: 'Helvetica', sans-serif;
   color: black;
-
-  /* collapsible effect */
-  overflow: hidden;
-}
-
-.panel cover {
-  all: inherit;
-  background-attachment: unset;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: unset;
-  width: 100vw;
-  height: 55vh;
-  background-image: url("images/Alice_Graph.jpeg");
-  padding-top: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 1.6;
 }
 
 .panel journal {
@@ -121,11 +108,10 @@ body {
   /* text */
   font-family: 'Courier New', monospace;
   font-size: large;
-  padding-top: 10vh;
   padding-right: 20vw;
-  padding-bottom: 10vh;
   padding-left: 20vw;
   text-shadow: 0 0 10px 5px white;
+  line-height: 1;
 }
 
 .panel resume {
@@ -133,13 +119,9 @@ body {
 
   /* text */
   background-repeat: repeat;
-  padding-top: 10vh;
   padding-right: 10vw;
-  padding-bottom: 10vh;
   padding-left: 10vw;
-  font-family: 'Helvetica', sans-serif;
   font-size: 15px;
-  line-height: 1.6;
 }
 
 /* title */
@@ -164,68 +146,32 @@ body {
   color: inherit;
 }
 
+.panel button {
+  color: inherit;
+  font: inherit;
+
+  border: none;
+  border-radius: 4px;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  bottom: 0%;
+  left: 45%;
+}
+
 .panel photo {
   width: 100vw;
   min-height: 60vh;
 }
 
-.parallax {
-  /* Set a specific height */
-  min-width: 50vw;
-  min-height: 30vh;
 
-  /* Create the parallax scrolling effect + scaling */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* text */
-  color: white;
-}
-
-.parallax about {
-  all: inherit;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: lighter;
-  line-height: 1.6;
-  height: 80vh;
-  background-image: url("images/headshot_zoomed.jpg");
-
-  /* text */
-  padding-top: 10vh;
-  padding-right: 25vw;
-  padding-bottom: 15vh;
-  padding-left: 25vw;
-}
-
-.parallax bigTitle {
-  all: inherit;
-  height: 5vh;
-  width: 100vw;
-
-  /* text */
-  text-align: center;
-  padding-top: 15vh;
-  padding-bottom: 5vh;
-  font-weight: bolder;
-  font-size: 160px;
-}
-
-.parallax bigTitle a {
-  color: inherit;
-}
-
-.row > .column {  }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.parallax album {
-  
 }
 
 /* Add a background color and some padding around the form */
@@ -271,7 +217,7 @@ body {
     padding-top: 5vh;
     padding-bottom: 5vh;
   }
-  .parallax about {
+  .panel about {
     min-height: 80vh;
     font-size: smaller;
     padding-left: 10vw;
@@ -279,7 +225,7 @@ body {
     padding-top: 5vh;
     padding-bottom: 5vh;
   }
-  .parallax london {
+  .panel london {
     height: 10vh;
     font-size: 80px;
   }

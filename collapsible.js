@@ -1,4 +1,4 @@
-var coll = document.getElementsByClassName("panel");
+var coll = document.getElementsByClassName("panel", "parallax");
 var i;
 
 for (i = 0; i < coll.length; i++) {
