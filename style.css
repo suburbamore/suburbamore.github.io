@@ -71,6 +71,9 @@ body {
   width: 100vw;
 }
 
+.active, .collapsible:hover {
+}
+
 /* links in banners */
 .banner bigTitle a {
   all: inherit;
@@ -92,6 +95,8 @@ body {
   font-family: 'Helvetica', sans-serif;
   color: black;
   line-height: 1.6;
+
+  display: none;
 }
 
 .panel journal {
@@ -161,7 +166,6 @@ body {
 .panel photo {
   width: 100vw;
   min-height: 60vh;
-  display: block;
 }
 
 
