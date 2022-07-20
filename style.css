@@ -1,36 +1,12 @@
 html {
   font-family: 'Helvetica', sans-serif;
-  height: 100%;
   font-size: x-large;
   scroll-behavior: smooth;
 }
 
-nav {
-	margin: 0vh, 0vw, 0vh, 0vw;
-	top: 0;
-  color: black;
-  text-align: center;
-  padding-top: 10vh;
-  overflow: hidden;
-}
-
-nav a {
-  margin-right: 10vw;
-  margin-left: 10vw;
-  margin-top: 20vh;
-  color: black;
-  text-decoration: none;
-}
-
-nav a: hover {
-  color: lightblue;
-}
-
 body {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+  height: 7000px;
+  background: linear-gradient(#ffffff 0%, #99ccff 30%, #ffff99 50%, #ffcc99 70%, #ffffff 90%);
 }
 
 .links {
@@ -54,9 +30,7 @@ body {
 }
 
 .banner {
-  min-width: 50vw;
-  min-height:  30vh;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -65,17 +39,15 @@ body {
   /* text */
   color: white;
   text-align: center;
-  padding-top: 15vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   font-weight: bolder;
   font-size: 160px;
   width: 100vw;
 }
 
-.active, .collapsible:hover {
-}
-
 /* links in banners */
-.banner bigTitle a {
+.banner a {
   all: inherit;
   color: inherit;
 }
@@ -93,59 +65,17 @@ body {
 
   /* text */
   font-family: 'Helvetica', sans-serif;
-  color: black;
+  font-weight: bold;
+  color: white;
   line-height: 1.6;
-
-  display: none;
+  padding-bottom: 20vh;
 }
 
-.panel journal {
-  all: inherit;
-  min-height: 0vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-
-  /* text */
-  font-family: 'Courier New', monospace;
-  font-size: large;
-  padding-right: 20vw;
-  padding-left: 20vw;
-  text-shadow: 0 0 10px 5px white;
-  line-height: 1;
+.active, .panel:hover {
 }
 
-.panel resume {
-  all: inherit;
-
-  /* text */
-  background-repeat: repeat;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  padding-right: 10vw;
-  padding-left: 10vw;
-  font-size: 15px;
-}
-
-/* title */
-.panel resume t {
-  font-weight: bold;
-  font-size: 35px;
-}
-
-/* header */
-.panel resume h {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-/* caption */
-.panel resume c {
-  font-weight: bold;
-}
-
-/* link */
-.panel resume a {
-  color: inherit;
+.panel title {
+  font-size: larger;
 }
 
 .panel button {
@@ -168,66 +98,104 @@ body {
   min-height: 60vh;
 }
 
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 
+/* The grid: Five equal columns that float next to each other */
+.bandColumn {
+  float: left;
+  width: 20%;
+}
+
+/* Style the images inside the grid */
+.bandColumn img {
+  opacity: 0.8;
+  height: 20vh;
+  padding-left: 2.5vh;
+  padding-left: 2.5vh;
+}
+
+.bandColumn img:hover {
+  opacity: 1;
+}
+
+/* The grid: Five equal columns that float next to each other */
+.albumColumn {
+  float: left;
+  width: 100%;
+}
+
+/* Style the images inside the grid */
+.albumColumn img {
+  opacity: 0.8;
+  height: 120vh;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  padding-bottom: 10vh;
+}
+
+.albumColumn img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Add a background color and some padding around the form */
+/* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
-  border-radius: 5px;
-  padding-right: 100px;
-  padding-left: 100px;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  position: relative;
+  background-repeat: no-repeat;
+  display: none;
 }
 
-@media (background-image width: 100vw) {
-  nav a {
-    margin-right: 0vw;
-    margin-left: 0vw;
-    margin-top: 0vh;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    padding-top: 0vh;
-  }
-    footer a {
-    margin-right: 0vw;
-    margin-left: 0vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 10vh;
-    color: black;
-    float: bottom;
-  }
-  .panel cover {
-    font-size: smaller;
-    padding-left: 0vw;
-    padding-right: 0vw;
-    padding-top: 0vh;
-    min-height: 0vh;
-    padding-bottom: 4vh;
-    background-image: url(images/graphinthemiddle.jpg);
-    background-size: 80vh;
-  }
-  .panel journal {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-  }
-  .panel about {
-    min-height: 80vh;
-    font-size: smaller;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-  }
-  .panel london {
-    height: 10vh;
-    font-size: 80px;
-  }
+.container img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Expanding image text */
+#imgtext1 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Expanding image text */
+#imgtext2 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Expanding image text */
+#imgtext3 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+} 
+
+@media () {
 }
