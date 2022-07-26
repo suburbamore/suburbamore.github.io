@@ -129,7 +129,8 @@ body {
   opacity: 0.8;
   width: 80vw;
   padding-right: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .albumColumn img:hover {
@@ -150,11 +151,6 @@ body {
   display: none;
 }
 
-.container img {
-  width: 100%;
-  object-fit: contain;
-}
-
 .container div {
   height: 30vh;
   background-repeat: no-repeat;
@@ -166,6 +162,12 @@ body {
   padding-top: 20vh;
   font-size: 26px;
   line-height: 1cm;
+}
+
+.container iframe {
+  margin: auto;
+  width: 80%;
+  margin-left: 10vw;
 }
 
 /* Closable button inside the image */
