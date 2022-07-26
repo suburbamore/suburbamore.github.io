@@ -1,4 +1,4 @@
-// When the user scrolls the page, execute myFunction
+/*// When the user scrolls the page, execute myFunction
 window.onscroll = function() {stickyFunction()};
 
 // Get the header
@@ -15,7 +15,7 @@ function stickyFunction() {
   } else {
     banner.classList.remove("sticky");
   }
-} 
+}*/
 
 
 function columnFunction1(imgs) {
