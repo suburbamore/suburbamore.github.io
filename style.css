@@ -52,6 +52,10 @@ body {
   color: inherit;
 }
 
+.banner a:hover {
+  opacity: 0.8;
+}
+
 .panel {
   /* the panel itself */
   min-width: 50vw;
