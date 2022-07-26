@@ -14,62 +14,48 @@
 		<div class="banner" style="font-size: 8vw; margin-top: 50vh;">
 			THE BAND
 		</div>
-		<!--div class="banner" style="font-size: 3vw; padding-top: 0vh;">
-			THE VOCALISTS:
-		</div-->
-		<!-- The grid: five columns and three rows -->
+		<div class="row" style="margin-left: 3vw; padding-bottom: 5vh;">
+		  <div class="bandColumn">
+		    <img src="bandmates/david.png" alt="Nature" onclick="columnFunction1(this);">
+		  </div>
+		  <div class="bandColumn">
+		    <img src="bandmates/lucas.png" alt="Snow" onclick="columnFunction1(this);">
+		  </div>
+		  <div class="bandColumn">
+		    <img src="bandmates/johnny.png" alt="Mountains" onclick="columnFunction1(this);">
+		  </div>
+		  <div class="bandColumn">
+		    <img src="bandmates/soren.JPG" alt="Soren is a guitarist and singer- songwriter who started playing guitar in jazz band, moved to a quartet, and then joined Suburbamore. His favorite genres to play are jazz and indie pop. He’s a lifelong Los Gatos resident and you can often find him playing songs with his friends for the locals." onclick="columnFunction1(this);">
+		  </div>
+		  <div class="bandColumn">
+		    <img src="bandmates/ian.png" alt="Smoke" onclick="columnFunction1(this);">
+		  </div>
+		</div>
+		<div class="container" style="padding-bottom: 5vh;">
+		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+		  <div id="img1" style="background-image: url(images/yard.jpg);"></div>
+		</div>
 		<div class="row" style="margin-left: 3vw;">
 		  <div class="bandColumn">
-		    <img src="bandmates/jack.png" alt="Nature" onclick="columnFunction1(this);">
+		    <img src="bandmates/jack.png" alt="Nature" onclick="columnFunction2(this);">
 		  </div>
 		  <div class="bandColumn">
-		    <img src="bandmates/trevor.jpeg" alt="Snow" onclick="columnFunction1(this);">
+		    <img src="bandmates/trevor.jpeg" alt="Snow" onclick="columnFunction2(this);">
 		  </div>
 		  <div class="bandColumn">
-		    <img src="bandmates/mitch.png" alt="Mountains" onclick="columnFunction1(this);">
+		    <img src="bandmates/mitch.png" alt="Mountains" onclick="columnFunction2(this);">
 		  </div>
 		  <div class="bandColumn">
-		    <img src="bandmates/dylan.jpeg" alt="Names Al Shredda, Never seen Betta, wild strait lector but I’m really quite sensitive. I may be in the Army but I have feelings as well. Lover of music, ham-mocking and reading self-help books. I can make the best pancakes this side of the Mississippi (no matter-which side I’m on)." onclick="columnFunction1(this);">
+		    <img src="bandmates/dylan.jpeg" alt="Names Al Shredda, Never seen Betta, wild strait lector but I’m really quite sensitive. I may be in the Army but I have feelings as well. Lover of music, hammocking and reading self-help books. I can make the best pancakes this side of the Mississippi (no matter-which side I’m on)." onclick="columnFunction2(this);">
 		  </div>
 		  <div class="bandColumn">
-		    <img src="bandmates/alice.png" alt="Smoke" onclick="columnFunction1(this);">
+		    <img src="bandmates/alice.png" alt="Smoke" onclick="columnFunction2(this);">
 		  </div>
 		</div>
-		<!-- The expanding image container -->
-		<div class="container">
+		<div class="container" style="padding-top: 5vh;">
 		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-		  <img id="expandedImg1" style="height: 50vh; width: 100%">
-		  <div id="imgtext1"></div>
-		</div> 
-		<!--div class="banner" style="font-size: 3vw;">
-			THE INSTRUMENTALISTS:
-		</div-->
-		<div class="row" style="margin-left: 3vw; padding-top: 5vh;">
-		  <div class="bandColumn">
-		    <img src="bandmates/david.png" alt="Nature" onclick="columnFunction2(this);">
-		  </div>
-		  <div class="bandColumn">
-		    <img src="bandmates/lucas.png" alt="Snow" onclick="columnFunction2(this);">
-		  </div>
-		  <div class="bandColumn">
-		    <img src="bandmates/johnny.png" alt="Mountains" onclick="columnFunction2(this);">
-		  </div>
-		  <div class="bandColumn">
-		    <img src="bandmates/soren.JPG" alt="Soren is a guitarist and singer- songwriter, who started playing guitar in jazz band, moved to a quartet, then joined Suburbamore. His favorite genres to play are jazz and indie pop. He’s a lifelong Los Gatos resident and you can often find him playing songs with his friends for the locals." onclick="columnFunction2(this);">
-		  </div>
-		  <div class="bandColumn">
-		    <img src="bandmates/ian.png" alt="Smoke" onclick="columnFunction2(this);">
-		  </div>
+		  <div id="img2" style="background-image: url(images/house.jpg);"></div>
 		</div>
-		<!-- The expanding image container -->
-		<div class="container">
-		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-		  <img id="expandedImg2" style="height: 50vh;">
-		  <div id="imgtext2"></div>
-		</div> 
-		<!--div class="banner" style="font-size: 3vw;">
-		NOAH: 
-		</div-->
 		<div class="row" style="margin-left: 3vw; padding-top: 5vh; padding-bottom: 5vh;">
 		  <div class="bandColumn"><img src="images/transparant.png"></div>
 		  <div class="bandColumn"><img src="images/transparant.png"></div>
@@ -77,11 +63,9 @@
 		    <img src="bandmates/noah.jpeg" alt="I’m Noah! I don’t have an explicit role in Suburbamore. I’m the adviser of sorts. I help out wherever I can: be it in the form of input on the music front, or in the production of performances and videos. I write and record solo songs for voice and piano, perform in musicals, take pictures of my explorations (I drive and hike a lot), and I love to sail racing dinghies and otherwise being on the water. In college, I studied chemistry and nuclear science which I still very much enjoy. Day to day, I like browsing the depths of Wikipedia, finding remote stuff on satellite maps, and watching cartoons." onclick="columnFunction3(this);">
 		  </div>
 		</div>
-		<!-- The expanding image container -->
-		<div class="container">
+		<div class="container" style="padding-bottom: 5vh;">
 		  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-		  <img id="expandedImg3" style="height: 50vh;">
-		  <div id="imgtext3"></div>
+		  <div id="img3" style="padding-top: 10vh; padding-bottom: 10vh;background-image: url(images/sunset1.JPG);"></div>
 		</div> 
 		<div class="banner" style="font-size: 8vw; margin-top: 50vh;">
 			THE MUSIC

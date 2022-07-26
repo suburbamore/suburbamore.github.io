@@ -155,31 +155,17 @@ body {
   object-fit: contain;
 }
 
-/* Expanding image text */
-#imgtext1 {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
+.container div {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
-  font-size: 20px;
-}
-
-/* Expanding image text */
-#imgtext2 {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Expanding image text */
-#imgtext3 {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 20vh;
+  font-size: 26px;
+  line-height: 1cm;
 }
 
 /* Closable button inside the image */
